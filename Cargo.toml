@@ -4,3 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+wasm-bindgen = "0.2.63"
+
+[lib]
+create-type = ["cdylib"]
+path = "src/lib.rs"
